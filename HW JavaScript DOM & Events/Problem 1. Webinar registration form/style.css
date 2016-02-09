@@ -1,0 +1,41 @@
+#wrapper {
+    width: 360px;
+    margin: 0 auto;
+}
+
+form {
+    width: 360px;
+    background-color: antiquewhite;
+}
+
+form > h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+form > div {
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+form > div > p {
+    margin: 5px;
+}
+
+label[for=email]:after,
+label[for=name]:after,
+label[for=phone]:after,
+label[for=date]:after,
+label[for=organization]:after,
+label[for=mol]:after,
+label[for=eik]:after,
+label[for=dds]:after,
+label[for=organizationAddress]:after {
+    content:"*"; color: red
+}
+
+#invoiceDetails {
+    visibility: hidden;
+}

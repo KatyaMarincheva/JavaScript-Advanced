@@ -1,0 +1,20 @@
+#wrapper {
+    width: 360px;
+    margin: 0 auto;
+}
+
+#email,
+#text-copy,
+#btn {
+    height: 40px;
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+}
+
+#email {
+    width: 450px;
+}
+
+#text-copy {
+    width: 454px;
+}
