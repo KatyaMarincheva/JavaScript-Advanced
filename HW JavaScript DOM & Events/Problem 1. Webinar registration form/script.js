@@ -1,5 +1,5 @@
-function toggleVisibility(adres) {
-    var checkBox = document.getElementById('invoice');
+function toggleVisibility(checkBox, adres) {
+    var checkBox = document.getElementById(checkBox);
     var deliveryAddress = document.getElementById(adres);
     if (checkBox.checked) {
         deliveryAddress.style.visibility = 'visible';
@@ -7,5 +7,3 @@ function toggleVisibility(adres) {
         deliveryAddress.style.visibility = 'hidden';
     }
 }
-
-
