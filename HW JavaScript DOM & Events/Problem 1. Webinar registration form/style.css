@@ -36,7 +36,6 @@ label[for=organizationAddress]:after {
     content:"*"; color: red
 }
 
-#invoiceDetails,
-#invoicehi {
+#invoiceDetails {
     visibility: hidden;
 }
